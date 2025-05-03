@@ -1,66 +1,51 @@
-/* Genel stil */
+/* Genel Stil */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff7f7; /* Hafif beyaz arka plan */
+  background-image: url('images/your-pattern-file.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
 }
 
+/* Başlık ve Ana Menüler */
 header {
-  background-color: #800000; /* Bordo renk */
-  color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   text-align: center;
 }
 
-header h1 {
+h1 {
   font-size: 36px;
-  margin: 0;
+  color: #5a3e36;
 }
 
 nav a {
-  color: white;
   margin: 0 15px;
   text-decoration: none;
+  color: #5a3e36;
+  font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
+/* Ürünler ve Diğer Bölümler */
 section {
-  padding: 20px;
-  margin: 20px;
-}
-
-section h2 {
-  font-size: 28px;
-  color: #800000; /* Bordo renk */
-}
-
-.product img {
-  width: 200px;
-  height: 250px;
-  border-radius: 10px;
-  margin: 10px;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .product {
   display: inline-block;
-  text-align: center;
+  width: 200px;
   margin: 20px;
+  text-align: center;
 }
 
 footer {
-  background-color: #800000; /* Bordo renk */
-  color: white;
-  padding: 10px;
   text-align: center;
-}
-
-/* Çilek Resimleri */
-.strawberry-img {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  color: #555;
 }
