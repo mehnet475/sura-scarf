@@ -1,0 +1,106 @@
+/* Genel Ayarlar */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffaf5;
+  color: #3e2c23;
+}
+
+header {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fcead2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Bölümler */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#products {
+  background-color: #fdf8f3;
+}
+
+.product {
+  display: inline-block;
+  margin: 20px;
+  max-width: 220px;
+  background: #fff;
+  border: 1px solid #e0d4c3;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  color: #5e3d2c;
+}
+
+/* İletişim */
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin: 10px 0;
+}
+
+#contact a {
+  color: #8b5e3c;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #8b5e3c;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9em;
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 768px) {
+  .product {
+    display: block;
+    margin: 20px auto;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
