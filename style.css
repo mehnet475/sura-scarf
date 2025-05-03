@@ -7,11 +7,10 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url('images/pattern.jpg'); /* Arka plan deseni */
+  background: linear-gradient(to bottom right, #800000, #d2b48c); /* Bordo ve açık kahverengi */
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #5a3e36;
+  color: #3d2b1f;
   line-height: 1.6;
   padding: 0 10px;
 }
@@ -54,45 +53,4 @@ section {
 
 section#home {
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-section#products {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.product {
-  width: 250px;
-  text-align: center;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.product img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.product h3 {
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.product p {
-  font-size: 14px;
-  color: #333;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #f1f1f1;
-  font
+  border-radius: 8
